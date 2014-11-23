@@ -124,7 +124,7 @@ namespace SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[21];
+            _typeNameTable = new string[22];
             _typeNameTable[0] = "SpaceAcademy.Pages.ExitPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -133,21 +133,22 @@ namespace SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo
             _typeNameTable[5] = "SpaceAcademy.Common.ObservableDictionary";
             _typeNameTable[6] = "Object";
             _typeNameTable[7] = "String";
-            _typeNameTable[8] = "SpaceAcademy.CustomViews.CanvasListView";
-            _typeNameTable[9] = "Windows.UI.Xaml.Controls.ListView";
-            _typeNameTable[10] = "Windows.UI.Xaml.Controls.ItemsControl";
-            _typeNameTable[11] = "SpaceAcademy.Pages.GamePage";
-            _typeNameTable[12] = "Windows.Devices.Sensors.Accelerometer";
-            _typeNameTable[13] = "Windows.Devices.Sensors.OrientationSensor";
-            _typeNameTable[14] = "SpaceAcademy.Pages.HighScores";
-            _typeNameTable[15] = "SpaceAcademy.Pages.MainPage";
-            _typeNameTable[16] = "SpaceAcademy.Pages.PausePage";
-            _typeNameTable[17] = "SpaceAcademy.Pages.QuestionPage";
-            _typeNameTable[18] = "System.Collections.Generic.List`1<SpaceAcademy.SQLiteModels.QuestionsWithAnswers>";
-            _typeNameTable[19] = "SpaceAcademy.SQLiteModels.QuestionsWithAnswers";
-            _typeNameTable[20] = "Int32";
+            _typeNameTable[8] = "SpaceAcademy.Pages.GameOverPage";
+            _typeNameTable[9] = "SpaceAcademy.CustomViews.CanvasListView";
+            _typeNameTable[10] = "Windows.UI.Xaml.Controls.ListView";
+            _typeNameTable[11] = "Windows.UI.Xaml.Controls.ItemsControl";
+            _typeNameTable[12] = "SpaceAcademy.Pages.GamePage";
+            _typeNameTable[13] = "Windows.Devices.Sensors.Accelerometer";
+            _typeNameTable[14] = "Windows.Devices.Sensors.OrientationSensor";
+            _typeNameTable[15] = "SpaceAcademy.Pages.HighScores";
+            _typeNameTable[16] = "SpaceAcademy.Pages.MainPage";
+            _typeNameTable[17] = "SpaceAcademy.Pages.PausePage";
+            _typeNameTable[18] = "SpaceAcademy.Pages.QuestionPage";
+            _typeNameTable[19] = "System.Collections.Generic.List`1<SpaceAcademy.SQLiteModels.QuestionsWithAnswers>";
+            _typeNameTable[20] = "SpaceAcademy.SQLiteModels.QuestionsWithAnswers";
+            _typeNameTable[21] = "Int32";
 
-            _typeTable = new global::System.Type[21];
+            _typeTable = new global::System.Type[22];
             _typeTable[0] = typeof(global::SpaceAcademy.Pages.ExitPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -156,19 +157,20 @@ namespace SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo
             _typeTable[5] = typeof(global::SpaceAcademy.Common.ObservableDictionary);
             _typeTable[6] = typeof(global::System.Object);
             _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::SpaceAcademy.CustomViews.CanvasListView);
-            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.ListView);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
-            _typeTable[11] = typeof(global::SpaceAcademy.Pages.GamePage);
-            _typeTable[12] = typeof(global::Windows.Devices.Sensors.Accelerometer);
-            _typeTable[13] = typeof(global::Windows.Devices.Sensors.OrientationSensor);
-            _typeTable[14] = typeof(global::SpaceAcademy.Pages.HighScores);
-            _typeTable[15] = typeof(global::SpaceAcademy.Pages.MainPage);
-            _typeTable[16] = typeof(global::SpaceAcademy.Pages.PausePage);
-            _typeTable[17] = typeof(global::SpaceAcademy.Pages.QuestionPage);
-            _typeTable[18] = typeof(global::System.Collections.Generic.List<global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers>);
-            _typeTable[19] = typeof(global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers);
-            _typeTable[20] = typeof(global::System.Int32);
+            _typeTable[8] = typeof(global::SpaceAcademy.Pages.GameOverPage);
+            _typeTable[9] = typeof(global::SpaceAcademy.CustomViews.CanvasListView);
+            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.ListView);
+            _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
+            _typeTable[12] = typeof(global::SpaceAcademy.Pages.GamePage);
+            _typeTable[13] = typeof(global::Windows.Devices.Sensors.Accelerometer);
+            _typeTable[14] = typeof(global::Windows.Devices.Sensors.OrientationSensor);
+            _typeTable[15] = typeof(global::SpaceAcademy.Pages.HighScores);
+            _typeTable[16] = typeof(global::SpaceAcademy.Pages.MainPage);
+            _typeTable[17] = typeof(global::SpaceAcademy.Pages.PausePage);
+            _typeTable[18] = typeof(global::SpaceAcademy.Pages.QuestionPage);
+            _typeTable[19] = typeof(global::System.Collections.Generic.List<global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers>);
+            _typeTable[20] = typeof(global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers);
+            _typeTable[21] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -205,14 +207,15 @@ namespace SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo
 
         private object Activate_0_ExitPage() { return new global::SpaceAcademy.Pages.ExitPage(); }
         private object Activate_5_ObservableDictionary() { return new global::SpaceAcademy.Common.ObservableDictionary(); }
-        private object Activate_8_CanvasListView() { return new global::SpaceAcademy.CustomViews.CanvasListView(); }
-        private object Activate_11_GamePage() { return new global::SpaceAcademy.Pages.GamePage(); }
-        private object Activate_14_HighScores() { return new global::SpaceAcademy.Pages.HighScores(); }
-        private object Activate_15_MainPage() { return new global::SpaceAcademy.Pages.MainPage(); }
-        private object Activate_16_PausePage() { return new global::SpaceAcademy.Pages.PausePage(); }
-        private object Activate_17_QuestionPage() { return new global::SpaceAcademy.Pages.QuestionPage(); }
-        private object Activate_18_List() { return new global::System.Collections.Generic.List<global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers>(); }
-        private object Activate_19_QuestionsWithAnswers() { return new global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers(); }
+        private object Activate_8_GameOverPage() { return new global::SpaceAcademy.Pages.GameOverPage(); }
+        private object Activate_9_CanvasListView() { return new global::SpaceAcademy.CustomViews.CanvasListView(); }
+        private object Activate_12_GamePage() { return new global::SpaceAcademy.Pages.GamePage(); }
+        private object Activate_15_HighScores() { return new global::SpaceAcademy.Pages.HighScores(); }
+        private object Activate_16_MainPage() { return new global::SpaceAcademy.Pages.MainPage(); }
+        private object Activate_17_PausePage() { return new global::SpaceAcademy.Pages.PausePage(); }
+        private object Activate_18_QuestionPage() { return new global::SpaceAcademy.Pages.QuestionPage(); }
+        private object Activate_19_List() { return new global::System.Collections.Generic.List<global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers>(); }
+        private object Activate_20_QuestionsWithAnswers() { return new global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers(); }
         private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -220,7 +223,7 @@ namespace SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_18_List(object instance, object item)
+        private void VectorAdd_19_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers>)instance;
             var newItem = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)item;
@@ -281,24 +284,31 @@ namespace SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo
                 xamlType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  SpaceAcademy.CustomViews.CanvasListView
-                userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ListView"));
-                userType.Activator = Activate_8_CanvasListView;
+            case 8:   //  SpaceAcademy.Pages.GameOverPage
+                userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_GameOverPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  Windows.UI.Xaml.Controls.ListView
+            case 9:   //  SpaceAcademy.CustomViews.CanvasListView
+                userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ListView"));
+                userType.Activator = Activate_9_CanvasListView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  Windows.UI.Xaml.Controls.ListView
                 xamlType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 10:   //  Windows.UI.Xaml.Controls.ItemsControl
+            case 11:   //  Windows.UI.Xaml.Controls.ItemsControl
                 xamlType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  SpaceAcademy.Pages.GamePage
+            case 12:   //  SpaceAcademy.Pages.GamePage
                 userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_GamePage;
+                userType.Activator = Activate_12_GamePage;
                 userType.AddMemberName("Accelerometer");
                 userType.AddMemberName("OrientSensor");
                 userType.AddMemberName("NavigationHelper");
@@ -307,61 +317,61 @@ namespace SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  Windows.Devices.Sensors.Accelerometer
+            case 13:   //  Windows.Devices.Sensors.Accelerometer
                 userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Windows.Devices.Sensors.OrientationSensor
+            case 14:   //  Windows.Devices.Sensors.OrientationSensor
                 userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 14:   //  SpaceAcademy.Pages.HighScores
+            case 15:   //  SpaceAcademy.Pages.HighScores
                 userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_HighScores;
+                userType.Activator = Activate_15_HighScores;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  SpaceAcademy.Pages.MainPage
+            case 16:   //  SpaceAcademy.Pages.MainPage
                 userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_MainPage;
+                userType.Activator = Activate_16_MainPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 16:   //  SpaceAcademy.Pages.PausePage
+            case 17:   //  SpaceAcademy.Pages.PausePage
                 userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_PausePage;
+                userType.Activator = Activate_17_PausePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 17:   //  SpaceAcademy.Pages.QuestionPage
+            case 18:   //  SpaceAcademy.Pages.QuestionPage
                 userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_QuestionPage;
+                userType.Activator = Activate_18_QuestionPage;
                 userType.AddMemberName("questions");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 18:   //  System.Collections.Generic.List`1<SpaceAcademy.SQLiteModels.QuestionsWithAnswers>
+            case 19:   //  System.Collections.Generic.List`1<SpaceAcademy.SQLiteModels.QuestionsWithAnswers>
                 userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_18_List;
+                userType.CollectionAdd = VectorAdd_19_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 19:   //  SpaceAcademy.SQLiteModels.QuestionsWithAnswers
+            case 20:   //  SpaceAcademy.SQLiteModels.QuestionsWithAnswers
                 userType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_19_QuestionsWithAnswers;
+                userType.Activator = Activate_20_QuestionsWithAnswers;
                 userType.AddMemberName("ID");
                 userType.AddMemberName("Question");
                 userType.AddMemberName("AnswerOne");
@@ -372,7 +382,7 @@ namespace SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 20:   //  Int32
+            case 21:   //  Int32
                 xamlType = new global::SpaceAcademy.SpaceAcademy_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }

@@ -30,6 +30,8 @@ namespace SpaceAcademy.ViewModels
 
         public PlayerViewModel Player { get; set; }
 
+        public static int Points { get; set; }
+
         public GameViewModel(double width, double height)
         {
             this.Width = width;
@@ -119,12 +121,18 @@ namespace SpaceAcademy.ViewModels
                 if (gameObject is AsteroidViewModel)
                 {
                     this.asteroids.Remove((AsteroidViewModel)gameObject);
+                    Points += 10;
                 }
             }
         }
 
         private void StartGame()
         {
+            if(Points == null)
+            {
+                Points = 0;
+            }
+
             this.Player = new PlayerViewModel(50, 150, 300);
 
             this.gameObjects.Clear();

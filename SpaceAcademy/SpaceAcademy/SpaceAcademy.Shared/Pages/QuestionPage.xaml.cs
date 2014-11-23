@@ -30,6 +30,8 @@ namespace SpaceAcademy.Pages
     {
         private const string dbName = "QuestionsWithAnswers.db";
 
+        private int points;
+
         public List<QuestionsWithAnswers> questions { get; set; }
 
         public QuestionPage()
@@ -73,7 +75,7 @@ namespace SpaceAcademy.Pages
             }
             else
             {
-                this.Frame.Navigate(typeof(GameOverPage));
+                this.Frame.Navigate(typeof(GameOverPage), points);
             }
         }
 
@@ -85,7 +87,7 @@ namespace SpaceAcademy.Pages
             }
             else
             {
-                this.Frame.Navigate(typeof(GameOverPage));
+                this.Frame.Navigate(typeof(GameOverPage), points);
             }
         }
 
@@ -97,7 +99,7 @@ namespace SpaceAcademy.Pages
             }
             else
             {
-                this.Frame.Navigate(typeof(GameOverPage));
+                this.Frame.Navigate(typeof(GameOverPage), points);
             }
         }
 

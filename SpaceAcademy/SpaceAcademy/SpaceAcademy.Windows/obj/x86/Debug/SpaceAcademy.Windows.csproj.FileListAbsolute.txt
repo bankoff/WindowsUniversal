@@ -155,11 +155,3 @@ E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Pages\GameOverPa
 E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Pages\GameOverPage.xaml
 E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Pages\GameOverPage.xbf
 E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\bin\x86\Debug\Pages\GameOverPage.xbf
-E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles
-E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles.intermediate
-E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles
-E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles.intermediate
-E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles
-E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles.intermediate
-E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml
-E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\obj\x86\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml.intermediate
