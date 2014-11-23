@@ -1,4 +1,5 @@
-﻿using SpaceAcademy.Pages;
+﻿using Parse;
+using SpaceAcademy.Pages;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -38,6 +39,9 @@ namespace SpaceAcademy
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+
+            //ParseObject.RegisterSubclass<Phone>();
+            ParseClient.Initialize("P9FClRi67Y83aoxmnAgVk8nwMSdBV3maMqQREmJf", "Qxw9nn8KCzSXsk94JNx36jhTPwHNshsflpeka8CH");
         }
 
         /// <summary>

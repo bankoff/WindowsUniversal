@@ -223,14 +223,6 @@ E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\o
 E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\SpaceAcademy.WindowsPhone.pdb
 E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\en-US\Microsoft.Practices.ServiceLocation.Properties.Resources.resw
 E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\SpaceAcademy.WindowsPhone.csproj.GenerateResource.Cache
-E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles
-E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles.intermediate
-E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles
-E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles.intermediate
-E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles
-E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles.intermediate
-E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml
-E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml.intermediate
 E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation.pri
 E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\qualifiers.txt
 E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\priconfig.xml
