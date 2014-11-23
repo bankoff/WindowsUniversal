@@ -1,1 +1,1 @@
-E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\SpaceAcademy.Windows.csproj;x86
+E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\SpaceAcademy.Windows.csproj;x86
