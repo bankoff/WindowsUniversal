@@ -12,6 +12,7 @@ Assets\SplashScreen.scale-100.png
 Assets\StoreLogo.scale-100.png
 App.xbf
 Pages\ExitPage.xbf
+Pages\GameOverPage.xbf
 Pages\GamePage.xbf
 Pages\HighScores.xbf
 Pages\MainPage.xbf

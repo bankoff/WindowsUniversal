@@ -19,19 +19,32 @@
                     <StackPanel Margin="10">
                         <TextBlock Text="{Binding Question}"
                                    Style="{StaticResource SubheaderTextBlockStyle}"/>
-                        <TextBlock Text="{Binding AnswerOne}"
-                                   Style="{StaticResource BodyTextBlockStyle}"/>
-                        <TextBlock Text="{Binding AnswerTwo}"
-                                   Style="{StaticResource BodyTextBlockStyle}"/>
-                        <TextBlock Text="{Binding AnswerThree}"
-                                   Style="{StaticResource BodyTextBlockStyle}"/>
+                        <Button Margin="0,50,0,0" Background="Gold" HorizontalAlignment="Center">
+                            <TextBlock x:ConnectionId='3' Text="{Binding AnswerOne}"
+                                       Style="{StaticResource SubheaderTextBlockStyle}"
+                                                                       
+                                       Height="80"
+                                       Width="300"/>
+                        </Button>
+                        <Button Margin="0,50,0,0" Background="Gold" HorizontalAlignment="Center">
+                            <TextBlock x:ConnectionId='2' Text="{Binding AnswerTwo}"
+                                       Style="{StaticResource SubheaderTextBlockStyle}"
+                                                                       
+                                       Height="80"
+                                       Width="300"/>
+                        </Button>
+                        <Button Margin="0,50,0,0" Background="Gold" HorizontalAlignment="Center">
+                            <TextBlock x:ConnectionId='1' Text="{Binding AnswerThree}"
+                                       Style="{StaticResource SubheaderTextBlockStyle}"
+                                                                         
+                                       Height="80"
+                                       Width="300"/>
+                        </Button>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
-        <Button x:ConnectionId='1' Content="Return to Game"
-                                    />
+        
     </Grid>
 </Page>
 

@@ -17,6 +17,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using SpaceAcademy.ViewModels;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -57,12 +58,47 @@ namespace SpaceAcademy.Pages
             questions = await query.ToListAsync();
 
             // Show users
+            var getQuestionNumber = GameViewModel.rand.Next(questions.Count);
+            var question = questions[getQuestionNumber];
+            questions.Clear();
+            questions.Add(question);
             QuestionList.ItemsSource = questions;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_Answer_One(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(GamePage));
+            if(questions[0].RightAnswer == 1)
+            {
+                this.Frame.Navigate(typeof(GamePage));
+            }
+            else
+            {
+                this.Frame.Navigate(typeof(GameOverPage));
+            }
+        }
+
+        private void Button_Click_Answer_Two(object sender, RoutedEventArgs e)
+        {
+            if (questions[0].RightAnswer == 2)
+            {
+                this.Frame.Navigate(typeof(GamePage));
+            }
+            else
+            {
+                this.Frame.Navigate(typeof(GameOverPage));
+            }
+        }
+
+        private void Button_Click_Answer_Three(object sender, RoutedEventArgs e)
+        {
+            if (questions[0].RightAnswer == 3)
+            {
+                this.Frame.Navigate(typeof(GamePage));
+            }
+            else
+            {
+                this.Frame.Navigate(typeof(GameOverPage));
+            }
         }
 
         #region SQLite utils

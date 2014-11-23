@@ -1,1 +1,1 @@
-C:\Users\Test\Downloads\SpaceAcademy9withGestures\SpaceAcademy1\SpaceAcademy1\SpaceAcademy\SpaceAcademy.Windows\SpaceAcademy.Windows.csproj;x86
+E:\SpaceAcademy\SpaceAcademy\SpaceAcademy.Windows\SpaceAcademy.Windows.csproj;x86

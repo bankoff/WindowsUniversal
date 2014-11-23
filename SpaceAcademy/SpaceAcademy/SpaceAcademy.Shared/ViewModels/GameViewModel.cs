@@ -17,7 +17,7 @@ namespace SpaceAcademy.ViewModels
         private const int GameTimerIntervalInMilliseconds = 30;
         private const int MaxAsteroidsCount = 10;
 
-        private static readonly Random rand = new Random();
+        public static readonly Random rand = new Random();
 
         private double width;
         private double height;

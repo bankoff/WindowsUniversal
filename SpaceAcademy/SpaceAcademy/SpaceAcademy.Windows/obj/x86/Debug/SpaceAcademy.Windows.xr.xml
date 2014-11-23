@@ -52,8 +52,11 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
+      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="SpaceAcademy.Pages.ExitPage" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="SpaceAcademy.Pages.GameOverPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
     </RootType>
@@ -118,7 +121,6 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="SpaceAcademy.Pages.QuestionPage" />
   </Roots.RootTypes>
 </Roots>
