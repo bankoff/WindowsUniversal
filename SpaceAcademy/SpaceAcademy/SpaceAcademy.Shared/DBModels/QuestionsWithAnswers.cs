@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SpaceAcademy.SQLiteModels
+namespace SpaceAcademy.DBModels
 {
     [Table("QuestionsWithAnswers")]
     public class QuestionsWithAnswers

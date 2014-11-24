@@ -1,4 +1,4 @@
-﻿using SpaceAcademy.SQLiteModels;
+﻿using SpaceAcademy.DBModels;
 using SpaceAcademy;
 using SQLite;
 using System;

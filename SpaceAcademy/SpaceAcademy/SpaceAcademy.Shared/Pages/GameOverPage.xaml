@@ -7,9 +7,25 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
     <Grid>
-        <TextBlock Text="Game Over"
+        <Grid.Background>
+            <ImageBrush ImageSource="../Images/space-cool.jpg" />
+        </Grid.Background>
+        <ListView HorizontalAlignment="Center">
+            <TextBlock Text="Game Over" Margin="0,100,0,0"
                    Style="{StaticResource SubheaderTextBlockStyle}"/>
+            <TextBlock  Loaded="TextBlock_Loaded" Margin="0,100,0,0" Width="350"
+                   Style="{StaticResource SubheaderTextBlockStyle}"/>
+            <TextBox Name="playerName" 
+                 Margin="0,100,0,0" 
+                 Width="350"
+                 PlaceholderText="Your Name"
+                 HorizontalAlignment="Center"/>
+            <Button Content="Submit" 
+                Margin="0,100,0,0" 
+                Width="350" 
+                Height="100"
+                Click="Button_Click"/>
+        </ListView>
     </Grid>
 </Page>

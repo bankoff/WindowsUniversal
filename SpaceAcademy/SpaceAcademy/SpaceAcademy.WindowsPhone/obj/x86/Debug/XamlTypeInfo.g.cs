@@ -144,8 +144,8 @@ namespace SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo
             _typeNameTable[16] = "SpaceAcademy.Pages.MainPage";
             _typeNameTable[17] = "SpaceAcademy.Pages.PausePage";
             _typeNameTable[18] = "SpaceAcademy.Pages.QuestionPage";
-            _typeNameTable[19] = "System.Collections.Generic.List`1<SpaceAcademy.SQLiteModels.QuestionsWithAnswers>";
-            _typeNameTable[20] = "SpaceAcademy.SQLiteModels.QuestionsWithAnswers";
+            _typeNameTable[19] = "System.Collections.Generic.List`1<SpaceAcademy.DBModels.QuestionsWithAnswers>";
+            _typeNameTable[20] = "SpaceAcademy.DBModels.QuestionsWithAnswers";
             _typeNameTable[21] = "Int32";
 
             _typeTable = new global::System.Type[22];
@@ -168,8 +168,8 @@ namespace SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo
             _typeTable[16] = typeof(global::SpaceAcademy.Pages.MainPage);
             _typeTable[17] = typeof(global::SpaceAcademy.Pages.PausePage);
             _typeTable[18] = typeof(global::SpaceAcademy.Pages.QuestionPage);
-            _typeTable[19] = typeof(global::System.Collections.Generic.List<global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers>);
-            _typeTable[20] = typeof(global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers);
+            _typeTable[19] = typeof(global::System.Collections.Generic.List<global::SpaceAcademy.DBModels.QuestionsWithAnswers>);
+            _typeTable[20] = typeof(global::SpaceAcademy.DBModels.QuestionsWithAnswers);
             _typeTable[21] = typeof(global::System.Int32);
         }
 
@@ -214,8 +214,8 @@ namespace SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo
         private object Activate_16_MainPage() { return new global::SpaceAcademy.Pages.MainPage(); }
         private object Activate_17_PausePage() { return new global::SpaceAcademy.Pages.PausePage(); }
         private object Activate_18_QuestionPage() { return new global::SpaceAcademy.Pages.QuestionPage(); }
-        private object Activate_19_List() { return new global::System.Collections.Generic.List<global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers>(); }
-        private object Activate_20_QuestionsWithAnswers() { return new global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers(); }
+        private object Activate_19_List() { return new global::System.Collections.Generic.List<global::SpaceAcademy.DBModels.QuestionsWithAnswers>(); }
+        private object Activate_20_QuestionsWithAnswers() { return new global::SpaceAcademy.DBModels.QuestionsWithAnswers(); }
         private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -225,8 +225,8 @@ namespace SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo
         }
         private void VectorAdd_19_List(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers>)instance;
-            var newItem = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::SpaceAcademy.DBModels.QuestionsWithAnswers>)instance;
+            var newItem = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)item;
             collection.Add(newItem);
         }
 
@@ -362,14 +362,14 @@ namespace SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 19:   //  System.Collections.Generic.List`1<SpaceAcademy.SQLiteModels.QuestionsWithAnswers>
+            case 19:   //  System.Collections.Generic.List`1<SpaceAcademy.DBModels.QuestionsWithAnswers>
                 userType = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.CollectionAdd = VectorAdd_19_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 20:   //  SpaceAcademy.SQLiteModels.QuestionsWithAnswers
+            case 20:   //  SpaceAcademy.DBModels.QuestionsWithAnswers
                 userType = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_20_QuestionsWithAnswers;
                 userType.AddMemberName("ID");
@@ -458,66 +458,66 @@ namespace SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo
         private void set_10_QuestionPage_questions(object instance, object Value)
         {
             var that = (global::SpaceAcademy.Pages.QuestionPage)instance;
-            that.questions = (global::System.Collections.Generic.List<global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers>)Value;
+            that.questions = (global::System.Collections.Generic.List<global::SpaceAcademy.DBModels.QuestionsWithAnswers>)Value;
         }
         private object get_11_QuestionsWithAnswers_ID(object instance)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             return that.ID;
         }
         private void set_11_QuestionsWithAnswers_ID(object instance, object Value)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             that.ID = (global::System.Int32)Value;
         }
         private object get_12_QuestionsWithAnswers_Question(object instance)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             return that.Question;
         }
         private void set_12_QuestionsWithAnswers_Question(object instance, object Value)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             that.Question = (global::System.String)Value;
         }
         private object get_13_QuestionsWithAnswers_AnswerOne(object instance)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             return that.AnswerOne;
         }
         private void set_13_QuestionsWithAnswers_AnswerOne(object instance, object Value)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             that.AnswerOne = (global::System.String)Value;
         }
         private object get_14_QuestionsWithAnswers_AnswerTwo(object instance)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             return that.AnswerTwo;
         }
         private void set_14_QuestionsWithAnswers_AnswerTwo(object instance, object Value)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             that.AnswerTwo = (global::System.String)Value;
         }
         private object get_15_QuestionsWithAnswers_AnswerThree(object instance)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             return that.AnswerThree;
         }
         private void set_15_QuestionsWithAnswers_AnswerThree(object instance, object Value)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             that.AnswerThree = (global::System.String)Value;
         }
         private object get_16_QuestionsWithAnswers_RightAnswer(object instance)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             return that.RightAnswer;
         }
         private void set_16_QuestionsWithAnswers_RightAnswer(object instance, object Value)
         {
-            var that = (global::SpaceAcademy.SQLiteModels.QuestionsWithAnswers)instance;
+            var that = (global::SpaceAcademy.DBModels.QuestionsWithAnswers)instance;
             that.RightAnswer = (global::System.Int32)Value;
         }
 
@@ -590,42 +590,42 @@ namespace SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo
                 break;
             case "SpaceAcademy.Pages.QuestionPage.questions":
                 userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.Pages.QuestionPage");
-                xamlMember = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlMember(this, "questions", "System.Collections.Generic.List`1<SpaceAcademy.SQLiteModels.QuestionsWithAnswers>");
+                xamlMember = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlMember(this, "questions", "System.Collections.Generic.List`1<SpaceAcademy.DBModels.QuestionsWithAnswers>");
                 xamlMember.Getter = get_10_QuestionPage_questions;
                 xamlMember.Setter = set_10_QuestionPage_questions;
                 break;
-            case "SpaceAcademy.SQLiteModels.QuestionsWithAnswers.ID":
-                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.SQLiteModels.QuestionsWithAnswers");
+            case "SpaceAcademy.DBModels.QuestionsWithAnswers.ID":
+                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.DBModels.QuestionsWithAnswers");
                 xamlMember = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlMember(this, "ID", "Int32");
                 xamlMember.Getter = get_11_QuestionsWithAnswers_ID;
                 xamlMember.Setter = set_11_QuestionsWithAnswers_ID;
                 break;
-            case "SpaceAcademy.SQLiteModels.QuestionsWithAnswers.Question":
-                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.SQLiteModels.QuestionsWithAnswers");
+            case "SpaceAcademy.DBModels.QuestionsWithAnswers.Question":
+                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.DBModels.QuestionsWithAnswers");
                 xamlMember = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlMember(this, "Question", "String");
                 xamlMember.Getter = get_12_QuestionsWithAnswers_Question;
                 xamlMember.Setter = set_12_QuestionsWithAnswers_Question;
                 break;
-            case "SpaceAcademy.SQLiteModels.QuestionsWithAnswers.AnswerOne":
-                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.SQLiteModels.QuestionsWithAnswers");
+            case "SpaceAcademy.DBModels.QuestionsWithAnswers.AnswerOne":
+                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.DBModels.QuestionsWithAnswers");
                 xamlMember = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlMember(this, "AnswerOne", "String");
                 xamlMember.Getter = get_13_QuestionsWithAnswers_AnswerOne;
                 xamlMember.Setter = set_13_QuestionsWithAnswers_AnswerOne;
                 break;
-            case "SpaceAcademy.SQLiteModels.QuestionsWithAnswers.AnswerTwo":
-                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.SQLiteModels.QuestionsWithAnswers");
+            case "SpaceAcademy.DBModels.QuestionsWithAnswers.AnswerTwo":
+                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.DBModels.QuestionsWithAnswers");
                 xamlMember = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlMember(this, "AnswerTwo", "String");
                 xamlMember.Getter = get_14_QuestionsWithAnswers_AnswerTwo;
                 xamlMember.Setter = set_14_QuestionsWithAnswers_AnswerTwo;
                 break;
-            case "SpaceAcademy.SQLiteModels.QuestionsWithAnswers.AnswerThree":
-                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.SQLiteModels.QuestionsWithAnswers");
+            case "SpaceAcademy.DBModels.QuestionsWithAnswers.AnswerThree":
+                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.DBModels.QuestionsWithAnswers");
                 xamlMember = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlMember(this, "AnswerThree", "String");
                 xamlMember.Getter = get_15_QuestionsWithAnswers_AnswerThree;
                 xamlMember.Setter = set_15_QuestionsWithAnswers_AnswerThree;
                 break;
-            case "SpaceAcademy.SQLiteModels.QuestionsWithAnswers.RightAnswer":
-                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.SQLiteModels.QuestionsWithAnswers");
+            case "SpaceAcademy.DBModels.QuestionsWithAnswers.RightAnswer":
+                userType = (global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SpaceAcademy.DBModels.QuestionsWithAnswers");
                 xamlMember = new global::SpaceAcademy.SpaceAcademy_WindowsPhone_XamlTypeInfo.XamlMember(this, "RightAnswer", "Int32");
                 xamlMember.Getter = get_16_QuestionsWithAnswers_RightAnswer;
                 xamlMember.Setter = set_16_QuestionsWithAnswers_RightAnswer;

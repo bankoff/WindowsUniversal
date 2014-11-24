@@ -1,4 +1,5 @@
 ﻿using Parse;
+using SpaceAcademy.DBModels;
 using SpaceAcademy.Pages;
 using System;
 using System.Collections.Generic;
@@ -40,7 +41,7 @@ namespace SpaceAcademy
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
 
-            //ParseObject.RegisterSubclass<Phone>();
+            ParseObject.RegisterSubclass<GameScore>();
             ParseClient.Initialize("P9FClRi67Y83aoxmnAgVk8nwMSdBV3maMqQREmJf", "Qxw9nn8KCzSXsk94JNx36jhTPwHNshsflpeka8CH");
         }
 

@@ -238,3 +238,11 @@ E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\o
 E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\GalaSoft.MvvmLight.Platform.pri.xml
 E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\ProjectArchitectures.txt
+E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles
+E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles.intermediate
+E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles
+E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles.intermediate
+E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles
+E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles.intermediate
+E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml
+E:\GitHub\WindowsUniversal\SpaceAcademy\SpaceAcademy\SpaceAcademy.WindowsPhone\obj\x86\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml.intermediate

@@ -9,7 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid x:Name="LayoutRoot">
-
+        <Grid.Background>
+            <ImageBrush ImageSource="../Images/space-cool.jpg" />
+        </Grid.Background>
         <Grid.ChildrenTransitions>
             <TransitionCollection>
                 <EntranceThemeTransition/>
@@ -29,6 +31,21 @@
 
         <!--TODO: Content should be placed within the following grid-->
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <ListView Grid.Row="1"
+                  SelectionMode="None"
+                  ItemsSource="{Binding GameScores}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding PlayerName}"
+                                       Style="{ThemeResource TitleTextBlockStyle}"/>
+                            <TextBlock Text="{Binding Score}" 
+                                       Style="{ThemeResource TitleTextBlockStyle}"
+                                       Margin="5 0 0 0"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
         </Grid>
     </Grid>

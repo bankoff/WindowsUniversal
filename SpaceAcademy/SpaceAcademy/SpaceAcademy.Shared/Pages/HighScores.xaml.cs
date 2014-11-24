@@ -1,4 +1,5 @@
 ﻿using SpaceAcademy.Common;
+using SpaceAcademy.ViewModels.Creatures;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -32,9 +33,11 @@ namespace SpaceAcademy.Pages
         {
             this.InitializeComponent();
 
+            this.DataContext = new HighScoresViewModel();
+
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
-            this.navigationHelper.SaveState += this.NavigationHelper_SaveState;
+            this.navigationHelper.SaveState += this.NavigationHelper_SaveState;          
         }
 
         /// <summary>
